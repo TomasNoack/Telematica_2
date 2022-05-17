@@ -8,18 +8,18 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Noack News',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            'Noticia 1' => 'Noticia 1',
+            'Noticia 2' => 'Noticia 2',
+            'contacto' => 'Contacto',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'v3.1',
+        'version' => 'v1.5',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
